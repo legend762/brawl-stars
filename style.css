@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    height: 100vh;
+    display: flex;
+    padding-left: 70px;
+    position: relative;
+}
+.header-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.header-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header-card{
+    width: 50%;
+    height: 50%;
+}
+.hc1{
+    background: url(img/pictures/Shelly4\ picture.png  ) center/cover no-repeat;
+}
+.hc2{
+    background: url(img/pictures/colt\ 2picture.jpg  ) center/cover no-repeat;
+}
+.hc3{
+    background: url(img/pictures/crow-brawl-stars.webp ) center/cover no-repeat;
+}
+.hc4{
+    background: url(img/pictures/spike2.png ) center/cover no-repeat;
+}
+.header-right h1{
+    text-align: center;
+    font-size: 100px;
+}
+.menu{
+    background-color: black;
+    width: 70px;
+    height: 100vh;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.header-names{
+    display: flex;
+    height: 200px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-names p{
+    background-color: lightslategray;
+    font-size: 30px;
+    width: 40%;
+    border-radius: 20px;
+    text-align: center;
+}
+.menu a{
+    margin-top: 10px;
+    display: inline-block;
+}
+.test{
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+.test:hover ~ .header-left .hc1{
+    filter: hue-rotate(500deg);
+}
+.about-left{
+    width: 70%;
+    height: 100%;
+}
+.about-right{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.about{
+    display: flex;
+    height: 100vh;
+    padding-left: 70px;
+    background: url(img/pictures/brawl\ stars.jpg) center/cover no-repeat;
+}
+.img-1{
+    width: 70%;
+    align-self: flex-end;
+}
+.img-2{
+    width: 70%;
+}
+.img-3{
+    width: 70%;
+    align-self: flex-start;
+}
+.about-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.about-bottom{
+    padding-left: 50px;
+}
+.about-top{
+    padding-left: 50px;
+}
+.about-top h3{
+    font-size: 100px;
+}
+.brawlers{
+    height: 100vh;
+    background-color: burlywood;
+    padding-left: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.brawlers-bottom img{
+    width: 60%;
+}
+.brawlers-top h2{
+    font-size: 30px;
+}
+.brawlers-top h3{
+    font-size: 70px;
+}
+.brawlers-top{
+    display: flex;
+    justify-content: space-between;
+}
+.brawlers-top p{
+    width: 500px;
+}
+.brawlers-bottom{
+    text-align: center;
+}
+.kit{
+    height: 100vh;
+    padding-left: 70px;
+    display: flex;
+}
+.kit-left{
+    background: url(img/pictures/kit\ brawl\ stars.jpg) center/cover no-repeat;
+    height: 100%;
+    width: 40%;
+}
+.kit-right{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: darkgreen;
+    align-items: center;
+    padding: 30px;
+}
+.kit-right h1 {
+    color: white;
+}
+.kit-right h2{
+color: white;
+font-size: 100px;
+}
+.kit-right p{
+color: white;
+font-size: 50px;
+}
+.gallery h2{
+    text-align: right;
+    padding: 70px;
+    background-color: darkred;
+}
+.gallery{
+    padding-left: 70px;
+}
+.gallery-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gc{
+    width: 40%;
+    height: 60vh;
+    object-fit: cover;
+}
+.gc1{
+    height: 80vh;
+    width: 40%;
+    object-fit: cover;
+}
+.gc2{
+    height: 80vh;
+    width: 40%;
+    object-fit: cover;
+}
+.contact{
+    height: 100vh;
+    display: flex;
+    padding-left: 70px;
+    width: 100%;
+}
+.contact-left{
+    height: 100vh;
+    width: 30%;
+    background: url(img/pictures/Crow\ Phoenix\ brawl\ stars.webp)center/cover no-repeat;
+}
+.contact-right{
+    height: 100vh;
+    width: 30%;
+    background: url(img/pictures/kenji\ brawl\ stars.jpg)center/cover no-repeat;
+}
+.contact-mid{
+    height: 100vh;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-color: cadetblue;
+}
+form input{
+    width: 100%;
+}
+.contact-mid button{
+    color: white;
+    background-color: black;
+    padding: 10px;
+    margin: auto;
+    display: block;
+}
+form{
+    width: 100%;
+}
+.contact-mid{
+    padding: 20px;
+}
+
+
+
